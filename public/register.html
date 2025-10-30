@@ -9,7 +9,7 @@
   <body>
    <header class="bg-blue-300">
       <nav class="flex container mx-auto items-center">
-        <img src="assets/image/logo (3).png" class="w-17 h-15 p-1" alt="logo" />
+        <img src="assets/image/logo (3).png" class="w-17 h-14 p-1" alt="logo" />
         <h1 class="text-xl font bold text-start text-blue-900">
           charity minds
         </h1>
@@ -18,7 +18,7 @@
             <a href="login.html"> login</a>
           </li>
           <li>
-            <a href="register.html"> register </a>
+            <a href="index.html"> home </a>
           </li>
           <li>
             <a href="dashboard.html"> dashboard</a>
@@ -29,12 +29,13 @@
       <h1 class="text-center font-bold bg-red-100">
         Register For Charity Mind
       </h1>
-      <div class="flex justify-center items-center h-screen bg-blue-100">
+      <div class="min-h-screen flex justify-center items-center bg-blue-50 grid-cols-1 md: grid-cols-2 not-[]:">
         <form
           action="/submit_registration"
           method="POST"
-          class="space-y-4 justify-center border-gray-300"
-        >
+          class="bg-white w-full max-w-2xl h-full"
+        > 
+       
           <div>
             <label for=" first-name" class="font-medium justify-center"
               >First Name:</label
@@ -155,6 +156,7 @@
           <div>
             <button type="submit" class="w-full bg-red-100">Register</button>
           </div>
+        
         </form>
       </div>
     </main>
